@@ -10,6 +10,7 @@ int main(){
 
 	for(int i = 1;; i++){
 		cin >> length;
+		if(length < 1){break;}
 		int code[length];
 		createCode(code, length);
 		cout << "Game " << i << ":" << endl;
